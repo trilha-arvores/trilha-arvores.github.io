@@ -1,0 +1,86 @@
+
+.list-group > .list-group-item:last-child > .betwen-trees-arrow{
+
+    display: none;
+//     content: '→';
+//     position: absolute;
+//     text-wrap: nowrap;
+//     font-weight: bold;
+//     font-size: x-large;
+//     text-align: center;
+//     vertical-align: middle;
+}
+
+.betwen-trees-arrow{
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.map-image{
+    width: 100%;
+    border-radius: var(--bs-border-radius);
+}
+
+.no-map{
+    padding-bottom: calc((8 / 11) * 100%);
+}
+
+.tutorial-arvores{
+    display: inline-block;
+}
+
+.tutorial-arvores:hover, .tutorial-arvores:active .tutorial-arvores:focus{
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-confirm .modal-header {
+    border-bottom: none;
+    // position: relative;
+}
+.modal-confirm h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -10px;
+}
+
+.modal-confirm .icon-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 50%;
+    z-index: 9;
+    text-align: center;
+  }
+
+.modal-confirm .icon-box svg {
+    color: #f15e5e;
+    font-size: 80px;
+    margin-top: 13px;
+}
+
+.modal-confirm .modal-footer{
+
+    border: none;
+
+}
+
+.tree-draggable-item:hover .remove-tree{
+    display: block;
+}
+
+.remove-tree{
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: -0.4em;
+    display: none;
+    color: #f15e5e;
+    z-index: 10;
+}
